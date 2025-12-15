@@ -1,0 +1,67 @@
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+  width: 28px;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+}
+.navbar-light .navbar-toggler-icon::before,
+.navbar-light .navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #0f2d52;
+}
+.navbar-light .navbar-toggler-icon::before { top: 0; }
+.navbar-light .navbar-toggler-icon::after  { bottom: 0; }
+
+.navbar-light .navbar-toggler-icon { box-shadow: 0 7px 0 #0f2d52; }
+
+
+.brand-text {
+  color: #0f2d52;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+
+.navbar-light {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  min-height: 70px;
+}
+
+
+.navbar-light .nav-link:hover { color: #ff6f6f !important; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+form input, form textarea {
+    border-radius: 8px;
+}
+
+form button:hover {
+    opacity: 0.85;
+}
+
+
+header {
+    background-size: cover;
+    background-position: center;
+}
+
